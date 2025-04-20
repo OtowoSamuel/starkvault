@@ -1,5 +1,4 @@
-/// Interface representing `HelloContract`.
-/// This interface allows modification and retrieval of the contract balance.
+
 #[starknet::interface]
 pub trait IStarkVault<TContractState> {
     fn set_secret(ref self: TContractState, secret: felt252, password: felt252);
